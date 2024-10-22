@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+    
+.laatikko {
+    height: 200px;
+    width: 200px;
+    padding: 20px;
+    border: 10px;
+    border-radius: 10px;
+    margin: 30px;
+    }
+    .laatikko {
+        margin: 20px;
+    }
+
+.laatikko7 {
+    height: 200px;
+    width: 200px;
+    padding: 20px;
+    border: 10px;
+    border-radius: 10px;
+    margin: 30px;
+    }
