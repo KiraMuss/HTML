@@ -40,5 +40,7 @@
     background-color: #000;
     height: 200px;
     width: 900px;
+    max-width: 90%;
+    padding: 50px;
     border-radius: 30px;}
     
