@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+    
+.laatikko, .laatikko8 {
+    font-style: italic;
+    /*float: left;*/
+    height: 200px;
+    width: 200px;
+    padding: 20px;
+    border: 3px solid #000;
+    /*border-color: #000;*/
+    border-radius: 10px;
+    margin: 30px;
+    }
+    .laatikko {
+        margin: 20px;
+    }
+
+.laatikko:nth-child(even) {background-color: #18FFFF;}
+.laatikko:nth-child(odd) {background-color: #fff85b;}
+#laatikko {background-color: #8a2be2;
+    /*float: left;*/
+    height: 200px;
+    width: 200px;
+    padding: 20px;
+    border: 3px solid #000;
+    /*border-color: #000;*/
+    border-radius: 10px;
+    margin: 30px;
+    }
+#laatikko {
+        margin: 20px;
+    }
+.laatikko4 {display: none;}
+.laatikko8 {font-size: 2em;
+    color: #18FFFF;
+    text-align: center;
+    background-color: #000;
+    height: 200px;
+    width: 900px;
+    max-width: 90%;
+    padding: 50px;
+    border-radius: 30px;}
+    
