@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+    display: flex;
+}
+ul, ol {
+    list-style: none;
+}
+
+main {
+    width: 100%;
+}
+
+h2 {
+text-align: center;
+border: 1px solid;
+}
+
+nav {
+display: flex;
+float: left;
+width: 200px;
+border-style: solid;
+border-width: 3px;
+border-radius: 25px;
+}
+
+.subdiv {
+width: 200px;
+border: 1px solid;
+border-color: rgb(76, 230, 10);
+border-radius: 10px ;
+text-align: center;
+}
+
+.tuotteet{
+display: flex;
+justify-content: space-evenly;
+border-radius: 5px;
+}
