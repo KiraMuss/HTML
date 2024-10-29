@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+}
+p {
+    margin: 20px;
+    padding: 10px;
+    color: #ff0008;
+    font-size: 25px;
+    max-width: 1400px;
+}
+body {
+    background-image: url(../demot/Kuvat/noble-castle.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
