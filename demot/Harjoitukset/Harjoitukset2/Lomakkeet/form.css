@@ -1,0 +1,13 @@
+form {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+input:focus {
+  background-color: rgb(168, 231, 231);
+  border: solid rgb(141, 207, 240);
+}
+input {
+  margin-bottom: 5px;
+}

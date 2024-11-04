@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+    <title>Form</title>
+    <link rel="stylesheet" href="form.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Kutsu syntymäpäiville</h1>
+      <h2>Täyttäkää lomake</h2>
+    </header>
+    <main>
+      <form>
+        <label for="fname">Nimi: </label>
+        <input type="text" id="fname" /><br />
+        <label for="lname">Sukunimi: </label>
+        <input type="text" id="lname" /><br />
+        <label for="username">E-mail: </label>
+        <input type="email" id="email" /><br />
+        <label for="username">Phone: </label>
+        <input type="tel" name="tel" /><br />
+        <h2>Valitkaa tapahtuman päivämäärä</h2>
+        <input type="date" name="date" /><br />
+        <h2>Oleskelupaikka</h2>
+
+        <label for="walking">Paikalla</label>
+        <input type="radio" name="transport" value="walking" id="walking" />
+        <label for="public">Toisissa paikassa</label>
+        <input type="radio" name="transport" value="public" id="public" />
+        <label for="public">Palautan kotiin</label>
+        <input type="radio" name="transport" value="public" id="public" />
+        <input type="file" name="poster" accept="image/png, image/jpeg" />
+        <textarea name="teksti" id="" cols="25" rows="1"></textarea>
+        <select name="cars">
+          <option value="volvo">Volvo</option>
+          <option value="saab">Saab</option>
+          <option value="mercedes">Mercedes</option>
+          <option value="audi">Audi</option>
+        </select>
+        <form>
+          <input type="reset" value="Tyhjennä lomake" />
+        </form>
+        <input type="submit" name="submit" value="Lähetä" />
+      </form>
+    </main>
+  </body>
+</html>
