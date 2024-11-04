@@ -28,17 +28,12 @@
         <h2>Valitkaa tapahtuman päivämäärä</h2>
         <input type="date" name="date" /><br />
         <h2>Oleskelupaikka</h2>
-        <input type="radio" name="transport" value="walking" /> By foot
-        <input type="radio" name="transport" value="public" /> By public
-        transport
 
-        <input type="text" name="search" />
-        <input type="number" name="participants" min="1" max="5" />
-        <input type="password" name="password" />
-        <input type="checkbox" name="math" value="math" />
-        <label for="walking">Kävellen</label>
+        <label for="walking">Paikalla</label>
         <input type="radio" name="transport" value="walking" id="walking" />
-        <label for="public">Julkisilla</label>
+        <label for="public">Toisissa paikassa</label>
+        <input type="radio" name="transport" value="public" id="public" />
+        <label for="public">Palautan kotiin</label>
         <input type="radio" name="transport" value="public" id="public" />
         <input type="file" name="poster" accept="image/png, image/jpeg" />
         <textarea name="teksti" id="" cols="25" rows="1"></textarea>
