@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 100%;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 400;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 33, 36, 1) 0%,
+    rgba(150, 164, 195, 1) 100%,
+    rgba(220, 72, 222, 0.7063200280112045) 100%
+  );
+  width: 100%;
+}
+.cart-icon {
+  font-size: 24px;
+  color: #333;
+  cursor: pointer;
+}
+h1 {
+  color: rgb(30, 35, 70);
+  text-align: center;
+  font-size: 170px;
+}
+p {
+  text-align: center;
+  font-size: 90px;
+  color: rgb(30, 35, 70);
+}
+a {
+  text-decoration: none;
+}
+img {
+  max-width: 60%;
+  border-radius: 15px;
+}
+.container {
+  text-align: justify;
+  width: 90%;
+  margin: 0 auto;
+}
+header {
+  padding: 50px;
+  color: rgb(30, 35, 70);
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  padding-left: 2.75rem;
+  padding-right: 2.75rem;
+}
+.list {
+  padding: 0;
+  align-items: center;
+  display: grid;
+  grid-auto-flow: column;
+  column-gap: 2rem;
+}
+.goods {
+  padding: 25px;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(3, 500px);
+  grid-template-rows: 600px 600px 600px;
+}
+.goods * {
+  padding: 1rem;
+  border-radius: 10px;
+  background-color: #9ab4bc;
+}
+
+.goods-mt-5 {
+  display: grid;
+  grid-template-columns: repeat(4, 400px);
+  padding: 25px;
+  gap: 10px;
+}
+
+header nav {
+  font-size: 25px;
+  float: right;
+  width: 80%;
+}
+header nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header nav ul li {
+  display: inline-block;
+}
+header nav ul li a {
+  color: #9ab4bc;
+}
+header nav ul li:not(.active):not(.btn) a:hover {
+  border-bottom: 5px solid rgb(30, 35, 70);
+}
+.main {
+  text-align: center;
+}
