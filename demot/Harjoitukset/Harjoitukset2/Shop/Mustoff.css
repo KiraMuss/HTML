@@ -1,6 +1,7 @@
 * {
   margin: 0;
   box-sizing: border-box;
+  background-color: rgb(27, 25, 25);
 }
 .baskervville-regular {
   font-family: "Baskervville", serif;
@@ -14,22 +15,17 @@
   font-style: italic;
 }
 .body {
-  background: rgb(20, 71, 33);
-  background: linear-gradient(
-    90deg,
-    rgba(20, 71, 33, 1) 0%,
-    rgba(22, 110, 8, 0.6194852941176471) 100%
-  );
+  background-color: black
   width: 100%;
 }
 .navbar {
 }
 .nav {
+  margin: 1rem;
   display: flex;
   justify-content: flex-start;
   align-items: center;
   list-style: none;
-  background-color: chocolate;
   height: 35px;
   text-align: left;
 }
@@ -37,13 +33,12 @@
   box-sizing: border-box;
   text-align: center;
   display: block;
-  margin: 1rem;
-  padding: 1rem;
 }
 .row {
   display: flex
   align-items: center;
 }
-.rounded-img {
-  border-radius: 50%;
+.nav-item {
+  color: rgb(166, 159, 133);
+  font-size: x-large;
 }
