@@ -5,41 +5,99 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mustoff</title>
     <link rel="stylesheet" href="Mustoff.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&display=swap"
-      rel="stylesheet"
-    />
   </head>
 
   <body class="body">
-    <nav class="navbar">
-      <ul class="nav">
+    <header class="header">
+      <div class="container">
         <img
-          class="image"
-          src="/demot/Harjoitukset/Harjoitukset2/Shop/logo mustoff.png"
+          class="header_logo"
+          src="/HTML/demot/Harjoitukset/Harjoitukset2/Shop/logo mustoff.png"
           width="200px"
-          alt="Logo"
+          alt="logo"
         />
-        <li class="nav-item">
-          <a class="nav-link">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link">Products</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link">Contacts</a>
-        </li>
-      </ul>
-    </nav>
-    <div class="container">
-      <div class="row">
-        <img
-          src="/demot/Harjoitukset/Harjoitukset2/Shop/фон презентации.png"
-          alt="bg"
-        />
+        <nav class="header_nav">
+          <ul class="header_list">
+            <li>
+              <a
+                class="active"
+                href="/HTML/demot/Harjoitukset/Harjoitukset2/Shop/Mustoff.html"
+                >HOME</a
+              >
+            </li>
+            <li><a class="" href="#!">About us</a></li>
+            <li><a class="" href="#!">Products</a></li>
+            <li><a class="" href="#!">Contacts</a></li>
+          </ul>
+        </nav>
+        <a href="#!" class="btn"
+          ><img
+            src="/HTML/demot/Harjoitukset/Harjoitukset2/Shop/cart-outline.svg"
+            alt="cart"
+        /></a>
       </div>
-    </div>
+    </header>
+
+    <main class="main">
+      <section class="welcome">
+        <div class="container">
+          <div class="welcome__text">
+            <h1 class="welcome__subtitle">OSSETIAN PIES</h1>
+            <p class="welcome__desc">
+              Traditions in every bite, a taste of time and respect for
+              heritage.
+            </p>
+            <a href="#!" class="btn order">Order now</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="food-list">
+        <div class="container">
+          <div class="food-list__card">
+            <img
+              src="/HTML/demot/Harjoitukset/Harjoitukset2/Shop/сырный 2.jpg"
+              alt="cheese pie"
+              class="food-list__img"
+            />
+            <h4 class="food-list__title">Pie with cheese</h4>
+            <p class="food-list__desc">
+              Delicate crust and tender ossetian cheese
+            </p>
+          </div>
+          <div class="food-list__card">
+            <img
+              src="/HTML/demot/Harjoitukset/Harjoitukset2/Shop/meat.jpg"
+              alt="cheese pie"
+              class="food-list__img"
+            />
+            <h4 class="food-list__title">Pie with beet greens</h4>
+            <p class="food-list__desc">
+              Perfect blend of cheese and bet greens
+            </p>
+          </div>
+          <div class="food-list__card">
+            <img
+              src="/HTML/demot/Harjoitukset/Harjoitukset2/Shop/potatos.jpg"
+              alt="cheese pie"
+              class="food-list__img"
+            />
+            <h4 class="food-list__title">Pie with potatos</h4>
+            <p class="food-list__desc">Delicate potatos with onion</p>
+          </div>
+          <div class="food-list__card">
+            <img
+              src="/HTML/demot/Harjoitukset/Harjoitukset2/Shop/сырный.jpeg"
+              alt="cheese pie"
+              class="food-list__img"
+            />
+            <h4 class="food-list__title">Pie with meat</h4>
+            <p class="food-list__desc">
+              Unfogettable taste of jucy, seasoned meat
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
   </body>
 </html>

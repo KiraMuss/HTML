@@ -1,44 +1,186 @@
+@import url("https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&display=swap");
+
 * {
   margin: 0;
   box-sizing: border-box;
-  background-color: rgb(27, 25, 25);
-}
-.baskervville-regular {
-  font-family: "Baskervville", serif;
-  font-weight: 400;
-  font-style: normal;
 }
 
-.baskervville-regular-italic {
-  font-family: "Baskervville", serif;
-  font-weight: 400;
-  font-style: italic;
-}
 .body {
-  background-color: black
+  font-family: "Baskervville", serif;
+  background-color: #1c1c1c;
+  color: #fff;
   width: 100%;
 }
-.navbar {
+
+a {
+  color: #fff;
+  text-decoration: none;
 }
-.nav {
-  margin: 1rem;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
+
+ul {
   list-style: none;
-  height: 35px;
-  text-align: left;
+  padding: 0;
+  margin: 0;
 }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 500;
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
 .container {
-  box-sizing: border-box;
-  text-align: center;
-  display: block;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
 }
-.row {
-  display: flex
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  font-size: 20px;
+  width: 35px;
+  background: orange;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.order {
+  width: 120px;
+}
+
+.btn:hover {
+  opacity: 0.7;
+}
+
+.header {
+  padding: 25px 0;
+  display: flex;
+  justify-content: space-between;
   align-items: center;
 }
-.nav-item {
-  color: rgb(166, 159, 133);
-  font-size: x-large;
+
+.header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header_logo {
+}
+
+.header_nav {
+}
+
+.header_list {
+  display: flex;
+  gap: 80px;
+}
+
+.header_nav a {
+  font-size: 16px;
+  opacity: 0.7;
+  transition: 0.3s;
+}
+
+.header_nav a.active {
+  opacity: 1;
+}
+
+.header_nav a:hover {
+  opacity: 0.9;
+}
+
+.main {
+}
+
+/*Welcome section*/
+
+.welcome {
+  min-height: 100vh;
+  position: relative;
+  z-index: -1;
+  margin-top: -89.2px;
+  padding: 190px 0;
+  opacity: 0.8;
+  background-image: url("/HTML/demot/Harjoitukset/Harjoitukset2/Shop/фон\ презентации.png");
+  background-repeat: repeat;
+  background-size: cover;
+  background-position: center;
+}
+.welcome .container {
+}
+
+.welcome__text {
+  width: 600px;
+}
+
+.container {
+}
+
+.welcome__subtitle {
+  margin-bottom: 10px;
+  font-size: 50px;
+  letter-spacing: 0.2em;
+}
+
+.welcome__desc {
+  margin: 40px 0;
+  font-size: 37px;
+}
+
+/*Food list*/
+
+.food-list {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #222121;
+}
+
+.food-list .container {
+  display: flex;
+  width: 90%;
+  gap: 10px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.container {
+}
+
+.food-list__card {
+  text-align: center;
+  margin-top: 20px;
+  padding: 8px;
+  overflow: hidden;
+  width: 260px;
+  background: rgb(122, 53, 3);
+  border-radius: 10px;
+}
+
+.food-list__img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.food-list__title {
+  font-size: 22px;
+  opacity: 0.7;
+  margin-bottom: 13px;
+}
+
+.food-list__desc {
+  font-size: 15px;
+  opacity: 0.7;
 }
