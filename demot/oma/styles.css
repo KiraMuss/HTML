@@ -1,0 +1,112 @@
+/* Общие стили */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #0c0c1d;
+  color: #fff;
+}
+
+/* Шапка */
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background: #0f0f22;
+}
+
+.header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.header nav a {
+  color: white;
+  text-decoration: none;
+}
+
+.request-btn {
+  background: #222;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Герой-секция с асимметричными блоками */
+.hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto;
+  gap: 20px;
+  padding: 50px;
+  position: relative;
+}
+
+/* Основной текстовый блок */
+.text-block {
+  grid-column: 1;
+  grid-row: 1;
+  background: #fff;
+  color: black;
+  padding: 20px;
+  position: relative;
+  z-index: 2;
+
+  /* Асимметрия + сглаженные углы */
+  clip-path: polygon(10% 0, 100% 0, 100% 85%, 90% 100%, 0 100%, 0% 10%);
+  border-radius: 20px; /* Радиусы для мягкости */
+}
+
+/* Блок с изображением */
+.image-block {
+  grid-column: 2;
+  grid-row: 1 / span 2;
+  position: relative;
+  z-index: 1;
+}
+
+.image-block img {
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
+}
+
+/* Второй текстовый блок */
+.service-block {
+  grid-column: 1;
+  grid-row: 2;
+  background: #fff;
+  color: black;
+  padding: 20px;
+  position: relative;
+  z-index: 3;
+
+  /* Асимметрия + сглаженные углы */
+  clip-path: polygon(0 0, 90% 0, 100% 10%, 100% 100%, 10% 100%, 0% 85%);
+  border-radius: 20px; /* Радиусы */
+}
+
+/* Секция с услугами */
+.services {
+  padding: 50px;
+}
+
+.service-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.service-buttons button {
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.service-buttons .active {
+  background: #3742fa;
+  color: white;
+}
